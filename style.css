@@ -9,6 +9,17 @@
     padding: 0;
 }
 
+
+.hamburgue{
+    background-color: red;
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    z-index: 100;
+    right: 2rem;
+    top: 2rem;
+}
+
 /*Usado para formata o header*/
 header{
     width: 100%; /*Largura*/
