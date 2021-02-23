@@ -65,7 +65,7 @@ header{
     animation: movebaneer 1.5s 0.5s forwards; /*Usada para definir as regras da animação movebaneer*/    
 }
 
-/*Usado para formata o <p que está dentro da classe .baneer*/
+/*Usado para formatar o <p que está dentro da classe .baneer*/
 .baneer p{
     font-family: 'Josefin Slab', serif; /*Usado para informa fonte a ser usada*/
     color: white;
@@ -76,24 +76,24 @@ header{
     animation: movebaneer 1.5s 0.7s forwards; /*Usada para definir as regras da animação movebaneer*/ 
 }
 
-/**/
+/*Usado para formatar o button que está dentro da classe .baneer*/
 .baneer button{
-    font-family: 'Mulish', serif;
-    letter-spacing: 0.1rem;
+    font-family: 'Mulish', serif; /*Usado para informa fonte a ser usada*/
+    letter-spacing: 0.1rem; /*Propriedade de espaçamento entre letras*/
     color: white;
-    text-transform: uppercase;
-    background: #41295a; 
-    background: -webkit-linear-gradient(to right, #2F0743, #41295a);
-    background: linear-gradient(to right, #2F0743, #41295a);
-    padding: 1rem 2rem;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;  
-    opacity: 0;
-    animation: movebaneer 1.5s 0.9s forwards;      
+    text-transform: uppercase; /*Tranforma a letra em maiuscula*/
+    background: #41295a; /*Background para navegadores antigos que não tem suporte para o linear-gradient */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a); /* Background para versões dos navegadores Chrome 10-25, Safari 5.1-6, background retirado do site https://uigradients.com/*/
+    background: linear-gradient(to right, #2F0743, #41295a); /*Background para versões dos navegadores W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+, background retirado do site https://uigradients.com */
+    padding: 1rem 2rem; /*padding propriedades CSS são usadas para gerar espaço ao redor do conteúdo de um elemento, dentro de quaisquer bordas definidas.*/
+    border: none; /*Não define nenhuma fronteira*/
+    cursor: pointer; /*Faz com que ao colocar o curso de mouse no botão ele se transforma em um ponteiro que indica um link*/
+    border-radius: 5px; /*Faz com que as bordas do botão sejam arredondadas*/ 
+    opacity: 0; /*Alterar a opacidade*/
+    animation: movebaneer 1.5s 0.9s forwards; /*Usada para definir as regras da animação  movebaneer*/    
 }
 
-/**/
+/* */
 .baneer button:hover{
     color: black;  
 }
