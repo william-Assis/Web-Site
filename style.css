@@ -65,7 +65,7 @@ header{
     animation: movebaneer 1.5s 0.5s forwards; /*Usada para definir as regras da animação movebaneer*/    
 }
 
-/**/
+/*Usado para formata o <p que está dentro da classe .baneer*/
 .baneer p{
     font-family: 'Josefin Slab', serif;
     color: white;
