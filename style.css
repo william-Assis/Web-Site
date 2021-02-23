@@ -9,15 +9,15 @@
     padding: 0;
 }
 
-
+/*Usado para fazer a formatação da ícone  */
 .hamburgue{
     background-color: red;
-    width: 2rem;
-    height: 2rem;
-    position: fixed;
-    z-index: 100;
-    right: 2rem;
-    top: 2rem;
+    width: 2rem; /*Largura*/
+    height: 2rem; /*Altura*/
+    position: fixed; /*Faz com que fique fixado em apenas um lugar da tela*/
+    z-index: 100; /*O z-index é usado para definir a profundidade de algum elemento*/
+    right: 2rem; /*Usado para colocar o objeto do lado direito da tela*/
+    top: 2rem; /*Usado para afasta o objeto do topo*/
 }
 
 /*Usado para formata o header*/
