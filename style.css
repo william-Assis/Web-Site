@@ -93,12 +93,12 @@ header{
     animation: movebaneer 1.5s 0.9s forwards; /*Usada para definir as regras da animação  movebaneer*/    
 }
 
-/* */
+/*Usado para formatar o button que está dentro da classe .baneer, hover seletor é usado para selecionar elementos quando você passa o mouse sobre eles. */
 .baneer button:hover{
     color: black;  
 }
 
-/**/
+/*Usado para fazer a animação no <h1>, <p>, <button> que esta dentro da classe .baneer.*/
 @keyframes movebaneer{
     0%{
         transform: translateY(10rem) rotateY(-30deg);
