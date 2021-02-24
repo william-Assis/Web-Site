@@ -11,7 +11,7 @@
     text-decoration: none; /*Usado para retirar o sublinhado dos links da lista*/
 }
 
-
+/*pseudo classe com variaveis dentro de que reprensenta as fonts usado no projeto*/
 :root{
     --font-primaria: 'Baloo Da 2', serif;
     --font-secundaria: 'Josefin Slab', serif;
@@ -152,7 +152,7 @@ header{
 
 .menu{
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -161,5 +161,10 @@ header{
     text-align: center;
 }
 
+.menu-link{
+    font-family: var(--font-action);
+    font-size: 1.5rem;
+    color:#555;
+}
 
 
