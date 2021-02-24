@@ -150,4 +150,9 @@ header{
     transform: translate(-50%, -50%);
 }
 
+.menu-item{
+    text-align: center;
+}
+
+
 
