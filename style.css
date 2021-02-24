@@ -136,12 +136,18 @@ header{
 /*Usado para formatar e posicionar a janela do menu*/
 .sidebar{
     width: 20rem; /*largura da janela do menu*/
-    height: 100vh; /*Altura da janela do menu*/
+    height: 75vh; /*Altura da janela do menu*/
     background-color: white;
     position: fixed; /*Faz com que a janela do menu seja fixa na tela*/
     top: 0; /*Faz com que a janela do menu seja colada com a borda top*/
     right: 0; /*Faz com que a janela fique do lado direito da tela*/
 }
 
+.menu{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
