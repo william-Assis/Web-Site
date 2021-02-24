@@ -7,8 +7,8 @@
 *{
     margin: 0;
     padding: 0;
-    list-style: none;
-    text-decoration: none;
+    list-style: none; /*Usado para zerar todo o style de uma lista*/
+    text-decoration: none; /*Usado para retirar o sublinhado dos links da lista*/
 }
 
 /*Usado para fazer a formatação da ícone  */
