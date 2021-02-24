@@ -11,13 +11,23 @@
 
 /*Usado para fazer a formatação da ícone  */
 .hamburgue{
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 2rem; /*Largura*/
     height: 2rem; /*Altura*/
     position: fixed; /*Faz com que fique fixado em apenas um lugar da tela*/
     z-index: 100; /*O z-index é usado para definir a profundidade de algum elemento*/
     right: 2rem; /*Usado para colocar o objeto do lado direito da tela*/
-    top: 2rem; /*Usado para afasta o objeto do topo*/
+    top: 2rem; /*Usado para afasta o objeto do topo*/ 
+    cursor: pointer;  
+}
+
+.linha{
+    width: 100%;
+    height: .1rem;
+    background-color: white;
+    box-shadow: 0.1rem 0.1rem 1px black;
 }
 
 /*Usado para formata o header*/
