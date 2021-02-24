@@ -11,9 +11,9 @@
 
 /*Usado para fazer a formatação da ícone  */
 .hamburgue{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: flex; /*Display propriedade que especifica o comportamento de exibição, flex Exibe um elemento em nível de bloco */
+    flex-direction: column; /*Faz com que os itens sejam exibidos como uma coluna*/
+    justify-content: space-evenly; /*Faz com que as linha criadas na classe linha tenham um espaço igual em relação um ao outro*/
     width: 2rem; /*Largura*/
     height: 2rem; /*Altura*/
     position: fixed; /*Faz com que fique fixado em apenas um lugar da tela*/
@@ -23,6 +23,7 @@
     cursor: pointer;  
 }
 
+/**/
 .linha{
     width: 100%;
     height: .1rem;
