@@ -163,7 +163,7 @@ header{
     text-align: center; /*Usado para alinhar os links da classe menu-link*/
 }
 
-
+/*Usado para formatar os link do menu*/
 .menu-link{
     font-family: var(--font-action);
     font-size: 1.5rem;
