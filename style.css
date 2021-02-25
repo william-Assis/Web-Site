@@ -78,7 +78,7 @@ header{
 
 /*Usado para posicionar a classe .baneer que possuie o texto, button*/
 .baneer{
-    position: absolute; /*Usado para fazer o posicionamento dos intens*/
+    position: absolute; /*Usado para pode posicionar elementos em relação a outra classe ancestral*/
     top: 20%; /*20% de distancia do top*/
     left: 15%; /*15% de distancia do lado esquerdo*/   
 }
@@ -146,15 +146,16 @@ header{
     height: 75vh; /*Altura da janela do menu*/
     background-color: white;
     position: fixed; /*Faz com que a janela do menu seja fixa na tela*/
-    top: 0; /*Faz com que a janela do menu seja colada com a borda top*/
+    top: 0; /*Faz com que a janela do menu seja colada grudada na borda top*/
     right: 0; /*Faz com que a janela fique do lado direito da tela*/
 }
 
+/*Usado para posocionar a lista dentro dentro da classe .sidebar*/
 .menu{
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute;/*Usado para pode posicionar elementos em relação a outra classe ancestral*/
+    top: 35%; /*usado para separar o item da classe menur da borda  top*/
+    left: 50%; 
+    transform: translate(-50%, -50%); /*Usado para deixar os itens posicionado na metade da janela sidebar*/
 }
 
 .menu-item{
