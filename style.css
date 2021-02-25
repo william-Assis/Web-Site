@@ -158,9 +158,11 @@ header{
     transform: translate(-50%, -50%); /*Usado para deixar os itens posicionado na metade da janela sidebar*/
 }
 
+/*Usado para alinhar os links da lista*/
 .menu-item{
-    text-align: center;
+    text-align: center; /*Usado para alinhar os links da classe menu-link*/
 }
+
 
 .menu-link{
     font-family: var(--font-action);
