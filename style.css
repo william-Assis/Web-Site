@@ -153,7 +153,7 @@ header{
 /*Usado para posocionar a lista dentro dentro da classe .sidebar*/
 .menu{
     position: absolute;/*Usado para pode posicionar elementos em relação a outra classe ancestral*/
-    top: 40%; /*usado para separar o item da classe menur da borda  top*/
+    top: 45%; /*usado para separar o item da classe menur da borda  top*/
     left: 50%; 
     transform: translate(-50%, -50%); /*Usado para deixar os itens posicionado na metade da janela sidebar*/
     
@@ -162,7 +162,7 @@ header{
 /*Usado para alinhar os links da lista*/
 .menu-item{
     text-align: center; /*Usado para alinhar os links da classe menu-link*/
-    margin-bottom: 0.5rem; /*Faz uma separação entre os links*/
+    margin-bottom: 0.7rem; /*Faz uma separação entre os links*/
 }
 
 /*Usado para formatar os link do menu*/
@@ -170,6 +170,12 @@ header{
     font-family: var(--font-action);
     font-size: 1.5rem;
     color:#555;
+    
 }
+
+.menu-link:hover{
+    color: purple;
+}
+
 
 
