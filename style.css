@@ -173,6 +173,7 @@ header{
     
 }
 
+/* um seletor de foco estilize um link ao passar o mouse sobre ele, seletor da classe menu-link*/
 .menu-link:hover{
     color: purple;
 }
