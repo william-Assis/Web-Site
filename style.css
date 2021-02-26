@@ -177,13 +177,13 @@ header{
     color: purple;
 }
 
-
+/*Usado para fazer a formatação de posicionamento dos ícones das redes sociais*/
 .social-midia{
-    position: absolute;
-    bottom: 1rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    position: absolute; /*Usado para pode posicionar elementos em relação a outra classe ancestral*/
+    bottom: 1rem; /*Usado para distaciar os ítens do top da pagina*/
+    width: 100%; /*Usado para a área do ícone ocupar todo o espaço da classe ancestral */
+    display: flex; /*Exibe os ícones em formato de bloco */
+    justify-content: space-evenly; /*Usado para fazer os espaçamento iguais do ícones*/
 }
 
 .social-midia i{
