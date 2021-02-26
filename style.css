@@ -196,5 +196,9 @@ header{
 }
 
 
+.social-midia i:hover{
+    transform: scale(1.5);
+    transition: all 0.1s ease-in-out;
+}
 
 
