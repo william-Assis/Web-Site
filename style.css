@@ -143,7 +143,7 @@ header{
 /*Usado para formatar e posicionar a janela do menu*/
 .sidebar{
     width: 20rem; /*largura da janela do menu*/
-    height: 75vh; /*Altura da janela do menu*/
+    height: 70vh; /*Altura da janela do menu*/
     background-color: white;
     position: fixed; /*Faz com que a janela do menu seja fixa na tela*/
     top: 0; /*Faz com que a janela do menu seja colada grudada na borda top*/
@@ -170,12 +170,20 @@ header{
     font-family: var(--font-action);
     font-size: 1.5rem;
     color:#555;
-    
 }
 
 /* um seletor de foco estilize um link ao passar o mouse sobre ele, seletor da classe menu-link*/
 .menu-link:hover{
     color: purple;
+}
+
+
+.social-midia{
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
