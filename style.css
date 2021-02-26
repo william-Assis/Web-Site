@@ -194,12 +194,13 @@ header{
     display:flex; /*Exibe os ícones em formato de bloco */
     justify-content: center; /*Alinha os itens flexíveis no centro do contêiner*/
     align-items: center; /*Alinha os itens flexíveis no centro no eixo transversal*/
+    
 }
 
-
+/* hover usado para da o efeito de zoom quando passar o mouse em cima dos ícones das redes sociais*/
 .social-midia i:hover{
-    transform: scale(1.5);
-    transition: all 0.1s ease-in-out;
+    transform: scale(1.5); /*Aplica uma transformação 2D ou 3D a um elemento*/
+    transition: all 0.2s ease-in-out; /*Aplica um delay ao transform:*/
 }
 
 
