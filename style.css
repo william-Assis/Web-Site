@@ -186,13 +186,14 @@ header{
     justify-content: space-evenly; /*Usado para fazer os espaçamento iguais do ícones*/
 }
 
+/*Usado para fazer a formatação dos ícones das redes sociais*/
 .social-midia i{
     height: 2.5rem;
     width: 2.5rem;
-    font-size: 1.5rem;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 1.5rem; /*Almenta o tamanho dos ícones*/
+    display:flex; /*Exibe os ícones em formato de bloco */
+    justify-content: center; /*Alinha os itens flexíveis no centro do contêiner*/
+    align-items: center; /*Alinha os itens flexíveis no centro no eixo transversal*/
 }
 
 
