@@ -44,6 +44,7 @@
 /*Usado para fazer um X no menur .hamburgue*/
 .show-menu #linha1 {
     transform: translate(.4rem, .4rem) rotate(45deg);
+    background-color:purple;
 }
 
 /*Usado para fazer um X no menur .hamburgue*/
@@ -55,6 +56,7 @@
 /*Usado para fazer um X no menur .hamburgue*/
 .show-menu #linha3 {
     transform: translate(.2rem, -.5rem) rotate(-45deg);
+    background-color:purple;
 }
 
 /*Usado para formata o header*/
