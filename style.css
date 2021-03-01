@@ -38,6 +38,23 @@
     height: .1rem; /*Usado pra definir a altura da linha*/
     background-color: white;
     box-shadow: 0.1rem 0.1rem 1px black; /*Usado para fazer uma sombra em cada linha*/
+    transition: transform 1s ;
+}
+
+/*Usado para fazer um X no menur .hamburgue*/
+.show-menu #linha1 {
+    transform: translate(.4rem, .4rem) rotate(45deg);
+}
+
+/*Usado para fazer um X no menur .hamburgue*/
+.show-menu #linha2 {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/*Usado para fazer um X no menur .hamburgue*/
+.show-menu #linha3 {
+    transform: translate(.2rem, -.5rem) rotate(-45deg);
 }
 
 /*Usado para formata o header*/
@@ -147,7 +164,13 @@ header{
     background-color: white;
     position: fixed; /*Faz com que a janela do menu seja fixa na tela*/
     top: 0; /*Faz com que a janela do menu seja colada grudada na borda top*/
-    right: 0; /*Faz com que a janela fique do lado direito da tela*/
+    right: -20rem; /*Faz com que a janela fique do lado direito da tela*/
+    transition: 1s;
+}
+
+/*Usado para mostra o menur .hamburgue*/
+.show-menu .sidebar{
+    right: 0;
 }
 
 /*Usado para posocionar a lista dentro dentro da classe .sidebar*/
