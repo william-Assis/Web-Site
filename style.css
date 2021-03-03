@@ -263,9 +263,9 @@ header{
 }
 
 .sessao-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; /* Exibe os ícones em formato de bloco */
+    align-items: center; /* Alinha os itens flexíveis no centro no eixo transversal */
+    justify-content: center; /* Alinhe os itens flexíveis no centro do contêiner */
     background-color: #f5f5f5;
 }
 
