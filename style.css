@@ -228,12 +228,12 @@ header{
     transition: all 0.2s ease-in-out; /*Aplica um delay ao transform:*/
 }
 
-
+/*Usado para  formatar a classe pricipal*/
 .qualidades{
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(6, 6rem);
-    row-gap: 0.5rem;
+    display: grid; /*Layout baseado em grade, com linhas e colunas, facilitando o design de páginas*/
+    grid-template-columns: repeat(16, 1fr); /*Usado para fazer as linhas verticais do grid*/
+    grid-template-rows: repeat(6, 6rem); /*Usado para fazer as linhas horisontais do grid*/
+    row-gap: 0rem; /*Usado para fazer a separação entre as linhas horizontal do grid */
 }
 
 .qualidade:nth-child(1){
