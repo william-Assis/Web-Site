@@ -167,6 +167,7 @@ header{
     position: fixed; /*Faz com que a janela do menu seja fixa na tela*/
     top: 0; /*Faz com que a janela do menu seja colada grudada na borda top*/
     right: -20rem; /*Faz com que a janela fique do lado direito da tela*/
+    z-index: 99; /*A z-index é a propriedade especifica a ordem da pilha de um elemento.*/
     transition: 1s;
 }
 
@@ -316,6 +317,7 @@ header{
     background-color: #f5f5f5;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 1.5rem;
 }
 
 /*Usado para personalizar o tamanho e largura dos cards*/
@@ -408,4 +410,92 @@ header{
 .card:hover .card-info{
     opacity: 1;
     visibility: visible;
+}
+
+.sessao-contatos{
+    width: 100%;
+    height: 100vh;
+    background-color:#272727;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-wrapper{
+    width: 60%;
+    height: 30rem;
+    display: flex;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5)
+}
+
+.contato-left{
+    width: 35%;
+    background:linear-gradient(rgba(15,15,15, 0.6),rgba(24,24,24, 0.9)), url(imagens/contatos.jpg);
+    background-size: cover;
+}
+
+.contato-right{
+    width: 65%;
+    background-color: #f5f5f5;
+    padding: 1rem 3rem 3rem 3rem;
+}
+
+.input-group{
+    position: relative;
+}
+
+.sessao-contatos h1{
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-primaria);
+    color: #272727;
+    font-size: 3rem;
+}
+
+.sessao-contatos form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo{
+    background: transparent;
+    border: none;
+    width: 20rem;
+    font-family: var(--font-secundaria);
+    font-size: 1.5rem;
+    border-bottom: 1px dashed #636363;
+    height: 3rem;
+    outline: none;
+    margin: 1rem 0;
+}
+
+.campo-label{
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+    font-family: var(--font-secundaria);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.input-group textarea{
+    padding-top: 0.5rem;
+    max-width: 28rem;
+    max-height: 8rem;
+}
+
+.contatos-button{
+    width: 7rem;
+    height: 2.2rem;
+    font-family: var(--font-action); /*Usado para informa fonte a ser usada*/
+    letter-spacing: 0.01rem; /*Propriedade de espaçamento entre letras*/
+    color: white;
+    background: #41295a; /*Background para navegadores antigos que não tem suporte para o linear-gradient */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a); /* Background para versões dos navegadores Chrome 10-25, Safari 5.1-6, background retirado do site https://uigradients.com/*/
+    background: linear-gradient(to right, #2F0743, #41295a); /*Background para versões dos navegadores W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+, background retirado do site https://uigradients.com */
+    border: none; /*Não define nenhuma fronteira*/
+    cursor: pointer; /*Faz com que ao colocar o curso de mouse no botão ele se transforma em um ponteiro que indica um link*/
+    border-radius: 5px; /*Faz com que as bordas do botão sejam arredondadas*/    
 }
