@@ -23,7 +23,7 @@
         </div>
 
         <!--Parti inicial do site, frente inicial-->
-        <header>
+        <header id="homem">
             <div class="img-embrulho">
                <img src="imagens/BackGround_Header.jpg" alt=""> <!--Imagem retirada do site https://unsplash.com/-->
             </div>
@@ -38,11 +38,10 @@
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                    <li class="menu-item"><a href="#homem" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#qualidades" class="menu-link">Qualidades</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#contatos" class="menu-link">Contato</a></li>
                 </ul>
             </nav>
 
@@ -55,7 +54,7 @@
         </aside>
 
         <!-- Pilares da Qualidade -->
-        <section class="sessao-qualidades">
+        <section class="sessao-qualidades" id="qualidades">
             <div class="sessao-header">
                 <h1>Pilares da Qualidade</h1>
             </div>
@@ -114,7 +113,7 @@
             </div>
         </section>
 
-        <section class="sessao-projetos">
+        <section class="sessao-projetos" id="projetos">
             <div class="sessao-header">
                 <h1>Projetos</h1>
             </div>
@@ -155,7 +154,7 @@
             </div>
         </section>
 
-        <section class="sessao-contatos">
+        <section class="sessao-contatos" id="contatos">
             <div class="contato-wrapper">
                 <div class="contato-left">
 
@@ -180,6 +179,24 @@
                 </div>
             </div>
         </section>
+
+        <footer>
+            <div class="footer-conteudo">
+                <p>
+                    Copyright &copy; 2021, Construtora Wilton Aggrizzi - Todos os direitos reservados.
+                </p>
+                <div class="lista-social">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul> 
+                </div>
+            </div>
+        </footer>
+        <a href="#homem" id="link-top">
+            <li class="fas fa-arrow-up"></li>
+        </a>
     </div>
 </body>
 <script src="script.js"></script>

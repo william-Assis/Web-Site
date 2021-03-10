@@ -18,6 +18,10 @@
     --font-action: 'Mulish', serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*Usado para fazer a formatação da ícone  */
 .hamburgue{
     display: flex; /*Display propriedade que especifica o comportamento de exibição, flex Exibe um elemento em nível de bloco */
@@ -317,7 +321,7 @@ header{
     background-color: #f5f5f5;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 /*Usado para personalizar o tamanho e largura dos cards*/
@@ -412,6 +416,7 @@ header{
     visibility: visible;
 }
 
+/*Area dos contatos no site*/
 .sessao-contatos{
     width: 100%;
     height: 100vh;
@@ -419,19 +424,20 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .contato-wrapper{
     width: 60%;
     height: 30rem;
     display: flex;
-    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5)
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5)/*sombra*/
 }
 
 .contato-left{
     width: 35%;
-    background:linear-gradient(rgba(15,15,15, 0.6),rgba(24,24,24, 0.9)), url(imagens/contatos.jpg);
-    background-size: cover;
+    background:linear-gradient(rgba(15,15,15, 0.6),rgba(24,24,24, 0.9)), url(imagens/contatos.jpg); /*Imagem como background, gradient de cor cinza*/
+    background-size: cover; /*Corta a imagem do background para caber no espaço*/
 }
 
 .contato-right{
@@ -444,6 +450,7 @@ header{
     position: relative;
 }
 
+/*formatação do titulo*/
 .sessao-contatos h1{
     width: 100%;
     text-align: center;
@@ -459,6 +466,7 @@ header{
     align-items: center;
 }
 
+/*formatação dos campos*/
 .campo{
     background: transparent;
     border: none;
@@ -471,6 +479,7 @@ header{
     margin: 1rem 0;
 }
 
+/*formatação das label*/
 .campo-label{
     position: absolute;
     left: 0;
@@ -480,6 +489,7 @@ header{
     text-transform: uppercase;
 }
 
+/*Formatação da area do texto.*/
 .input-group textarea{
     padding-top: 0.5rem;
     max-width: 28rem;
@@ -498,4 +508,66 @@ header{
     border: none; /*Não define nenhuma fronteira*/
     cursor: pointer; /*Faz com que ao colocar o curso de mouse no botão ele se transforma em um ponteiro que indica um link*/
     border-radius: 5px; /*Faz com que as bordas do botão sejam arredondadas*/    
+}
+
+footer{
+    width: 100%;
+    height: 7rem;
+    background-color:#272727;;
+    margin-top: 0.2rem;
+    display: flex;
+    padding-left: 16rem;
+    align-items: center;
+}
+
+.footer-conteudo{
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-conteudo p{
+    font-family: var(--font-secundaria);
+    color: white;
+    font-size: 1.2rem;
+}
+
+.lista-social a{
+    margin: 0 1rem;
+    color: white;
+}
+
+.lista-social ul{
+    display: flex;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1.5rem;
+    right: 5rem;
+}
+
+.lista-social li:hover{
+    transform: scale(1.5); /*Aplica uma transformação 2D ou 3D a um elemento*/
+    transition: all 0.2s ease-in-out; /*Aplica um delay ao transform:*/
+}
+
+#link-top{
+    position: fixed;
+    right: 1rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #41295a; /*Background para navegadores antigos que não tem suporte para o linear-gradient */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a); /* Background para versões dos navegadores Chrome 10-25, Safari 5.1-6, background retirado do site https://uigradients.com/*/
+    background: linear-gradient(to right, #2F0743, #41295a); /*Background para versões dos navegadores W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+, background retirado do site https://uigradients.com */
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+    border-radius: 0.3rem;
+}
+
+#link-top li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
